@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Bkas basic app</title>
+     <!-- daisyui -->
+      <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+<!-- mobile fhone -->
+ <main class="flex items-center justify-center min-h-screen bg-base-200">
+     
+
+ <div class="mockup-phone border-primary ">
+     
+  <div class="mockup-phone-camera"></div>
+  
+  <div class="mockup-phone-display">
+    <!-- <img alt="wallpaper" src="https://img.daisyui.com/images/stock/453966.webp"/> -->
+     
+    <div class="hero bg-base-200 min-h-screen">
+ <!-- total balance -->
+<div class="stats shadow-none">
+  <div class="stat mb-156">
+    <div class="stat-title text-xl text-center">Total Balance</div>
+    <div id="amount" class="stat-value  text-center">0</div>
+    <div class="flex justify-between gap-7 mt-5">
+  <button class="btn btn-lg btn-primary">Add Mony</button>
+  <button class="btn btn-lg btn-primary">Send Mony</button>
+</div>
+  </div>
+  
+</div>
+
+
+
+<div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl mt-6">
+  <div class="card-body">
+    <fieldset class="fieldset">
+      <label class="label"></label>
+    <input type="text" id="number" placeholder="Enter Number">
+      <label id="input-dha" class="label">Password</label>
+    <input type="password" id="pin" placeholder="Enter PIN">
+      <div><a class="link link-hover">Forgot password?</a></div>
+      <button id="login" class="btn btn-neutral mt-4">Add money</button>
+    </fieldset>
+  </div>
+</div>
+
+ </main>
+ <script src="js/bkas.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+
+<h2>Total Balance: <span id="amount">500</span> ৳</h2>
+
+<input type="text" id="number" placeholder="Enter Amount" />
+<input type="password" id="pin" placeholder="Enter PIN" />
+<button id="login">Login</button>
+
+<script src="bkas.js"></script> -->
